@@ -3,10 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZuliaPlay</title>
+    <title>ZuliaPlay - Bingo Online</title>
+    <style>
+        body { font-family: sans-serif; background: #0f172a; color: #fff; text-align: center; margin: 0; padding: 20px; }
+        .card { background: #1e293b; border-radius: 12px; max-width: 450px; margin: 20px auto; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+        h1 { color: #facc15; margin-bottom: 5px; }
+        p { color: #cbd5e1; font-size: 15px; }
+        .btn { display: inline-block; background: #22c55e; color: #fff; text-decoration: none; padding: 14px 24px; border-radius: 8px; font-weight: bold; font-size: 16px; margin-top: 15px; width: 80%; }
+        .btn:hover { background: #16a34a; }
+        .rules { text-align: left; background: #334155; padding: 15px; border-radius: 8px; margin-top: 20px; font-size: 13px; }
+    </style>
 </head>
-<body style="text-align: center; font-family: Arial, sans-serif; padding: 50px; background-color: #fffde7;">
-    <h1 style="color: #d32f2f;">¡Bienvenidos a ZuliaPlay! 🎲</h1>
-    <p>El propio bingo maracucho. ¡Preparando los cartones!</p>
+<body>
+    <div class="card">
+        <h1>🎲 ZULIAPLAY 🎲</h1>
+        <p>¡El bingo maracucho oficial!</p>
+        <hr style="border-color: #334155;">
+        <p><strong>Costo por cartón:</strong> $1 / Bs al cambio</p>
+        <p><strong>Premio de la ronda:</strong> Por definir</p>
+        
+        <!-- OJO: Cambia el 584120000000 por tu número de WhatsApp real -->
+        <a class="btn" href="https://wa.me/584120000000?text=Hola!%20Quiero%20comprar%20cartones%20para%20el%20bingo" target="_blank">
+            📲 Comprar Cartón por WhatsApp
+        </a>
+
+        <div class="rules">
+            <strong>¿Cómo jugar?</strong>
+            <ol>
+                <li>Escríbenos al WhatsApp para pedir tus cartones y pagar por Pago Móvil.</li>
+                <li>Recibe tu cartón numerado por foto.</li>
+                <li>Conéctate a la hora fijada para la cantada de números.</li>
+            </ol>
+        </div>
+    </div>
 </body>
 </html>
